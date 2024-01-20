@@ -40,33 +40,17 @@
     margin-top: 1em;
 }
 
-.info--btn {
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.6em;
-    font-family: inherit;
-    font-size: 0.875rem;
-    font-weight: 500;
-    text-decoration: none;
-    padding: 0.75em 2em;
-    border-radius: 6px;
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
-    color: inherit;
-}
-
-.info--btn.primary-btn {
+.primary-btn {
     border: 1px solid #D1D5DB;
     background: #FFF;
     color: #374151;
 }
 
-.info--btn.secondary-btn {
+.secondary-btn {
     background: #297FE5;
     color: #FFF;
 }
 
-.info--buttons > .info--btn {
+.info--buttons > * {
     width: 47%;
 }
