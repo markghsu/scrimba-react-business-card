@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 .app {
-    margin: 0 auto;
-    background: #1A1B21;
-    color: #FFF;
-    padding: 1em;
+    background: #F5F5F5;
+    color: #4A4E74;
+    font-family: Inter, sans-serif;
     max-width: 320px;
+    border-radius: 10px;
+    overflow: hidden;
 }
