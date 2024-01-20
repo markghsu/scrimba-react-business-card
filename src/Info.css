@@ -1,0 +1,72 @@
+.info--img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.info--container {
+    padding: 0 2em;
+}
+
+.info--title {
+    color: #2B283A;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1em 0 0;
+}
+
+.info--subtitle {
+    color: #F47D27;
+    text-align: center;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    margin: 0 0 0.5em;
+}
+
+.info--link {
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.625rem;
+    line-height: 150%;
+    display: block;
+}
+
+.info--buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.info--btn {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6em;
+    font-family: inherit;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.75em 2em;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    color: inherit;
+}
+
+.info--btn.primary-btn {
+    border: 1px solid #D1D5DB;
+    background: #FFF;
+    color: #374151;
+}
+
+.info--btn.secondary-btn {
+    background: #297FE5;
+    color: #FFF;
+}
+
+.info--buttons > .info--btn {
+    width: 47%;
+}
